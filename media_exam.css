@@ -1,0 +1,736 @@
+@media screen and (max-width: 1000px) {
+    .navbar{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100px;
+    }
+    .collection{
+        gap: 20px;
+        margin-right: 50px;
+    }
+    .item{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .btn{
+        width: 100px;
+        height: 31px;
+        margin-top: -5px;
+    }
+   
+    .navbar__middle h2{
+        font-size: 24px;
+    }
+    .navbar__middle h1{
+        font-size: 35px;
+        width: 100%;
+    }
+    .navbar__middle p{
+        font-size: 14px;
+        line-height: 1.3;
+
+    }
+    .navbar__middle__btn{
+        width: 160px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 899px) {
+    .item:nth-child(6){
+        display: block;
+    }
+    .item:nth-child(4){
+        display: none;
+    }
+    .item:nth-child(5){
+        display: none;
+    }
+    .collection{
+        gap: 25px;
+        margin-right: 50px;
+    }
+    .item{
+        font-size: 18px;
+    }
+    .navbar__middle{
+        width: 80%;
+        margin-top: 430px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .item{
+        display: none;
+    }
+    .item:nth-child(6){
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .navbar__top i{
+        display: none;
+    }
+    .navbar__top p{
+        display: none;
+    }
+    .collection h2{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .logo1{
+        display: block;
+        margin-left: 30px;
+        background: #333;
+        margin-top: 5px;
+    }
+    .navbar__middle{
+        margin-top: 450px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .navbar{
+        width: 100%;
+        height: 90vh;
+    }
+    .navbar__middle{
+        margin-left: 20px;
+    }
+    .navbar__middle h2{
+        font-size: 18px;
+    }
+    .navbar__middle h1{
+        font-size: 25px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .navbar__middle p{
+        margin-top: 14px;
+        font-size: 15px;
+        line-height: 1.1;
+        width: 100%;
+    }
+    .navbar__middle__btn{
+        width: 90%;
+        height: 50px;
+        font-size: 18px;
+        
+    }
+}
+@media screen and (max-width: 430px) {
+    .navbar{
+        width: 100%;
+        height: 70vh;
+    }
+    .navbar__middle{
+        margin-top: 300px;
+    }
+    .navbar__middle h2{
+        font-size: 15px;
+    }
+    .navbar__middle p{
+        font-size: 13px;
+    }
+    .navbar__middle__btn{
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .banner{
+        width: 100%;
+        height: 150vh;
+    }
+    .banner__collection{
+        margin-left: 100px;
+        gap: 70px;
+        height: 70px;
+
+    }
+    .banner__item{
+        font-size: 25px;
+    }
+    .cars__card{
+        width: 230px;
+        height: 210px;
+    }
+    .cars__info{
+        margin-left: 20px;
+    }
+    .cars__card img{
+        width: 240px;
+        height: 130px;
+    }
+    .cars__info h6{
+        margin-top: 4px;
+        font-size: 10px;
+    }
+    .cars__info{
+        margin-top: 10px;
+    }
+    .cars__info h5{
+        font-size: 14px;
+    } 
+    .cars__card:nth-child(7){
+        display: none;
+    }
+    .past{
+        margin-left: 15px;
+    }
+    .iconkas{
+        width: 220px;
+        height: 90px;
+        margin-left: 0px;
+    }
+    .iconkas i{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .banner{
+        width: 100%;
+        margin-top: 300px;
+    }
+    .banner__collection{
+        margin-top: -50px;
+    }
+    .banner__item{
+        display: none;
+    }
+    .banner__collection{
+        border-bottom: 1px solid #000;
+    }
+    .banner__item:nth-child(1){
+        display: block;
+    }
+    .cars__card{
+        width: 230px;
+        height: 200px;
+    
+    }
+    .cars{
+        margin-left: 50px;
+    }
+    .cars__card img{
+        width: 210px;
+        height: 120px;
+    }
+    .cars__info2 {
+        margin-left: 20px;
+    }
+    .past{
+        gap: 10px;
+    }
+    .iconkas{
+        width: 200px;
+        height: 80px;
+    }
+    .iconkas i{
+        margin-top: 5px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .banner{
+        height: 150vh;
+    }
+    .banner__collection{
+        margin-left: 40px;
+    }
+    .cars__card{
+        margin-left: 40px;
+    }
+    .cars{
+        margin-left: 0;
+    }
+    .cars__card{
+        width: 190px;
+        height: 170px;
+    }
+    .cars__card img{
+        width: 190px;
+        height: 100px;
+    }
+    .cars{
+        gap: 20px;
+    }
+    .cars__info h6{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .cars__info h5{
+        width: 100px;
+        font-size: 12px;
+    }
+    .cars__info2 h6{
+        margin-top: 1px;
+    }
+    .cars__info2{
+        width: 100px;
+        margin-top: 0px;
+    }
+    .past{
+        gap: 10px;
+    }
+    .iconkas{
+        width: 165px;
+        height: 85px;
+    }
+    .iconkas i{
+        margin-top:15px;
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:530px) {
+    .past{
+        margin-left: 90px;
+    }
+    .nissan h1{
+        display: none;
+    }
+    .nissan h4{
+        display: none;
+    }
+    .nissan__btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 430px) {
+    .banner{
+        width: 100%;
+        height: 220vh;
+    }
+    .cars__card:nth-child(4){
+        display: none;
+    }
+    .cars__card:nth-child(6){
+        display: none;
+    }
+    .cars__card:nth-child(7){
+        display: none;
+    }
+    .cars__card:nth-child(8){
+        display: none;
+    }
+    .cars__card{
+        width: 280px;
+        height: 210px;
+        margin-left: 70px;
+    }
+    .cars__card img{
+        width: 280px;
+        height: 150px;
+    }
+    .cars__info{
+        margin-top: -15px;
+    }
+    .cars__info2{
+        margin-top: -15px;
+    }
+    .past{
+        margin-left: 50px;
+    }
+    .nissan h1{
+        display: none;
+    }
+    .nissan h4{
+        display: none;
+    }
+    .nissan__btn{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+.xetrik__one img{
+    width: 300px;
+    height: 350px;
+}
+.xetrik{
+    margin-left: 48px;
+}
+.xetrik__one h4{
+    font-size: 20px;
+}
+.xetrik__one button{
+    width: 150px;
+    height: 49px;
+}
+}
+@media screen and (max-width: 899px) {
+    .xetrik__one img{
+        width: 290px;
+        height: 170px;
+        object-fit: cover;    
+    }
+    .xetrik{
+        margin-left: 15px;
+    }
+    .xetrik__one h4{
+        width: 80%;
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width: 730px) {
+    .xetrik__one img{
+        width: 230px;
+        height: 140px;
+        object-fit: cover;
+    }
+    .xetrik{
+        margin-left: 20px;
+    }
+   
+}
+@media screen and (max-width: 530px) {
+    .xetrik{
+        display: block;
+        margin-left: 0;
+    }
+    .xetrik__one img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        margin-top: 40px;
+    }
+    .xetrik__one h4{
+        font-size: 25px;
+    }
+    .xetrik__one p{
+        margin-top: 15px;
+    }
+    .xetrik__one button{
+        width: 90%;
+        text-align: start;
+        text-indent: 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .xetrik__one img{
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .banner__last{
+        width: 100%;
+        height: 240vh;
+        padding: 0 2%;
+
+    }
+    .banner__last__one h3{
+        font-size: 18px;
+    }
+    .banner__last__one h2{
+        width: 70%;
+        font-size: 28px;
+    }
+    .banner__last__one{
+        margin-left: 19px;
+    }
+    .banner__last__two img{
+        width: 470px;
+        height: 270px;
+        object-fit: cover;
+        margin-top: 22px;
+
+    }
+    .banner__sec__one img{
+        width: 470px;
+        height: 270px;
+        object-fit: cover;
+
+    }
+    .banner__last__second{
+        gap: 19px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .banner__last__first{
+        display: block;
+    }
+
+    .banner__last__one h3{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .banner__last__one span{
+        color: #C3002F;
+    }
+    
+    .banner__last__one h2{
+        margin-top: 30px;
+        width: 100%;
+        font-size: 33px;
+        font-weight: 100;
+        line-height: 1.2;
+        font-family: roboto;
+    }
+    .banner__last__one p{
+        margin-top: 30px;
+        color: #5C5C5C;
+    }
+    .banner__last__one button{
+        width: 280px;
+        height: 52px;
+        background: #000;
+        color: white;
+        border: none;
+        text-align: left;
+        text-indent: 18px;
+        font-size: 14px;
+        transition: .2s;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+    .banner__last__two img{
+        width: 550px;
+        height: 300px;
+        margin-left: 150px;
+    }
+    .banner__last__two{
+        margin-top: 20px;
+    }
+    .banner__sec__one img{
+        width: 400px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .banner__last__second{
+        gap: 30px;
+
+    }
+    .banner__sec__one{
+        margin-left: 10px;
+    }
+    .banner__last{
+        height: 260vh;
+    }
+    .banner__sec__one h4{
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .banner__sec__one h3{
+        margin-top: 8px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .banner__sec__one p{
+        width: 80%;
+        color: #5C5C5C;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+@media screen and (max-width: 730px) {
+    .banner__last__two img{
+        width: 550px;
+        height: 300px;
+        margin-left: 75px;
+    }
+    .banner__sec__one img{
+        width: 320px;
+        height: 180px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 530px) {
+    .banner__last__one{
+        margin-left: 40px;
+        width: 90%;
+    }
+    .banner__last__one h2{
+        width: 90%;
+    }
+    .banner__last__one button{
+        margin-left: 50px;
+    }
+    .banner__last__two img{
+        width: 400px;
+        height: 270px;
+        margin-left: 56px;
+    }
+    .banner__last__second{
+        display: block;
+    }
+    .banner__sec__one{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .banner__sec__one img{
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        object-fit: cover;
+    }
+    .banner__last{
+        padding: 0;
+        height: 430vh;
+    }
+    .banner__sec__one  h3{
+        margin-left: 40px;
+    }
+    .banner__sec__one h4{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .banner__sec__one p{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .banner__sec__one button{
+        width: 80%;
+        margin-left: 40px;
+        text-align: left;
+        text-indent: 17px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .banner__last__two img{
+        width: 350px;
+        height: 240px;
+        margin-left: 40px;
+    }
+    .banner__sec__one img{
+        width: 100%;
+        height: 330px;
+        margin-left: 0;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .lastest__one img{
+        width: 320px;
+        height: 180px;
+    }
+    .lastest__one h3{
+        width: 90%;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .lastest__one img{
+        width: 287px;
+        height: 160px;
+    }
+    .lastest__one h3{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .lastest__one h3{
+        font-size: 20px;
+        width: 70%;
+    }
+    .lastest__one img{
+        width: 233px;
+        height: 135px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .lastest{
+        display: block;
+        padding: 0 0;
+
+    }
+    .lastest__one{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .lastest__one img{
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+      }
+    .lastest__one h4{
+        margin-left: 20px;
+    }
+    .lastest__one h3{
+        margin-left: 20px;
+    }
+    .lastest__one button{
+        width: 85%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .katta button{
+        margin-left: 350px;
+    }
+    
+}
+@media screen and (max-width: 730px) {
+    .katta button{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .katta button{
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .foot{
+        line-height: 1.8;
+    }
+    .foot h2{
+        width: 100%;
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width: 730px) {
+    .footer__flex{
+        gap: 40px;
+    }
+    .foot p{
+        font-size: 12px;
+        width: 100%;
+        line-height: 2.7;
+    }
+}
+@media screen and (max-width: 530px) {
+    .foot p{
+        display: none;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .foot{
+        margin-left: 10px;
+    }
+    .foot h2{
+        height: 40px;
+        width: 100%;
+        border-bottom: 1px solid #5C5C5C;
+    }
+    .footer{
+        height: 450px;
+    }
+    
+}

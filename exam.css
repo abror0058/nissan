@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 800vh;
+}
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background:no-repeat center/cover  url(https://www.nissanusa.com/content/dam/Nissan/us/homepage/secondary-pfa/nissan-ariya-ev.jpg);
+}
+.logo{
+    margin-left: 20px;
+}
+.navbar__top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-right: 20px;
+}
+.item{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .1s;
+    font-family: bison;
+}
+
+.collection h2{
+    display: none;
+}
+
+
+.btn{
+    width: 125px;
+    height: 41px;
+    border: 1px solid #111;
+    background: transparent;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.logo1{
+    display: none;
+}
+.navbar__top i{
+    font-size: 23px;
+    cursor: pointer;
+    transition: .1s;
+}
+.navbar__top p{
+    cursor: pointer;
+    transition: .1s;
+}
+
+.item:hover{
+    border-bottom: 3px solid #111;
+}
+.btn:hover{
+    background: #C3002F;
+    color: white;
+    border: none;
+}
+.navbar__top i:hover{
+    border-bottom: 3px solid #111;
+
+}
+.navbar__top p:hover{
+    border-bottom: 3px solid #111;
+}
+.navbar__middle{
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.navbar__middle h2{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.navbar__middle h1{
+    font-size: 50px;
+    font-weight: 10;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: Archivo;
+}
+.navbar__middle p{
+    font-size: 18px;
+    margin-top: 20px;
+    width: 80%;
+    line-height: 1.5;
+}
+.navbar__middle__btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 52px;
+    background: #000;
+    color: white;
+    transition: .2s;
+    border: none;
+    cursor: pointer;
+}
+.navbar__middle__btn span{
+    font-size: large;
+    margin-left: 30px;
+    font-weight: 900px;
+}
+.navbar__middle__btn:hover{
+    background: #222;
+}
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #ddd;
+    overflow: auto;
+    transition: .3s;
+}
+.sec__sidebar{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #ddd;
+    overflow: auto;
+    transition: .3s;
+}
+
+.show{
+    height: 600px;
+}
+.top{
+    display: flex;
+    color: #000;
+    gap: 40px;
+    border-bottom: 2px solid #fff;
+}
+.top h1{    
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 100;
+    font-family: roboto;
+}
+.top p {
+    margin-top: 40px;
+    margin-left: 380px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.top h2{
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.sidebar__btn{
+    
+    width: 235px;
+    height: 51px;
+    color: #fff;
+    background: transparent;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: .2s;
+    background: #000;
+    font-size: 16px;
+    margin-top: 25px;
+
+}
+
+.sidebar i{
+    font-size: 37px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.first{
+    margin-top: 50px;
+    color: #000;
+    margin-left: 20px;
+    width: 15%;
+}
+.sidebar__collection{
+    list-style: none;
+}
+.sidebar__item{
+    margin-top: 25px;
+    cursor: pointer;
+}
+.sidebar__item:hover{
+    border-bottom: 1px solid #000;
+}
+.all{
+    display: flex;
+}
+.second{
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.ded{
+    display: flex;
+}
+.dva{
+    margin-left: 40px;
+}
+.ded{
+    margin-left: 30px;
+}
+.card{
+    width: 300px;
+    height: 240px;
+    cursor: pointer;
+    transition: .2s
+}
+.card:hover{
+    background: white;
+    border-bottom: 4px solid #C3002F;
+}
+.bir h6{
+    margin-top: 10px;
+}
+.ikki h6{
+    margin-top: 1px;
+}
+
+
+.create{
+    height: 600px;
+}
+.head h1{    
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    margin-left: 40px;
+}
+.head span{
+    color: #C3002F;
+} 
+
+.sec__btn{   
+    width: 235px;
+    height: 51px;
+    color: #fff;
+    background: transparent;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: .2s;
+    background: #C3002F;
+    font-size: 16px;
+    margin-top: 25px;
+    border: none;
+    margin-left: 550px;
+}
+
+.head{
+    display: flex;
+    color: #000;
+    gap: 40px;
+}
+
+.head i{
+    font-size: 37px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.sec__item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.sec__all{
+    display: flex;
+}
+.sec__card{
+    width: 190px;
+    height: 75px;
+    background: white;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+.sec__first h3{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sec__card   i{
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.sec__card p{
+    margin-top: 5px;
+    text-align: center;
+}
+.sec__card:hover{
+    background: #C3002F;
+    color: #fff;
+    border: none;
+}
+
+
+.sec__sec{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.odin p{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.dva p{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.sec__sec h6{
+    margin-top: 400px;
+}
+.odin p:hover{
+    border-bottom: 1px solid #000;
+}
+.dva p:hover{
+    border-bottom: 1px solid #000;
+}
+
+.sidebar h6{
+    margin-top: 100px;
+}
+
+.sec__dva{
+    display: flex;
+    margin-top: 80px;
+    width: 40%;
+    margin-left: -400px;
+    gap: 30px;
+}
+.sec__dva__card img{
+    margin-top: 20px;
+}
+.sec__dva__card p{
+    margin-top: 15px;
+}
+.banner{
+    width: 100%;
+    height: 115vh;
+    background: #EFEFEF;
+
+}
+.banner__collection{
+    margin-left: 140px;
+    list-style: none;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    gap: 140px;
+}
+.banner__item{
+    font-size: 25px;
+    font-family: roboto;
+    margin-top: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+.banner__item:hover{
+    border-bottom: 5px solid #000;
+}
+
+
+.cars__flex{
+    display: flex;
+}
+.cars__info{
+    margin-left: 40px;
+}
+
+.cars__card{
+    width: 250px;
+    height: 210px;
+    cursor: pointer;
+    transition: .2s
+}
+.cars{
+    margin-left: 100px;
+    margin-top: 20px;
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cars__card img{
+    width: 250px;
+    height: 140px;
+}
+.cars__info{
+    margin-left: 30px;
+}
+.cars__card:hover{
+    background: white;
+    border-bottom: 4px solid #C3002F;
+}
+.cars__info h6{
+    margin-top: 8px;
+}
+.cars__info h5{
+    width: 100px;
+}
+.cars__info2 h6{
+    margin-top: 1px;
+}
+.cars__info2{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+
+.past{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.iconkas{
+    width: 250px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid #D2D2D2;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.iconkas i{
+    margin-left: 110px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.iconkas h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.iconkas:hover{
+    background: #C3002F;
+    border: none;
+    color: #fff;
+}
+.nissan{
+    width: 100%;
+    height: 98vh;
+    margin-top: 60px;
+    background:no-repeat center/cover url(https://www.nissanusa.com/content/dam/Nissan/us/homepage/2023-nissan-leaf-and-ariya-d-v3.jpg);
+}
+.nissan h1{
+    color: #fff;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.nissan h4{
+    margin-left: 100px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.nissan__btn{
+    width: 210px;
+    height: 50px;
+    border: none;
+    color: white;
+    background: #C3002F;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.nissan__btn:hover{
+    background: #850422;
+}
+.xetrik{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.xetrik__one h4{
+    margin-top: 35px;
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 20px;
+    font-family: roboto;
+}
+.xetrik__one p{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: roboto;
+    color: #5C5C5C;
+}
+.xetrik__one button{
+    margin-top: 25px;
+    width: 160px;
+    height: 54px;
+    font-size: 16px;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .3s;
+}
+.xetrik__one button:hover{
+    background: #000;
+    border: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.banner__last{
+    width: 100%;
+    height: 180vh;
+    margin-top: 100px;
+    background: #F1F1F1;
+    padding: 0 6%;
+}
+.banner__last__first{
+    display: flex;
+}
+.banner__last__one{
+    margin-top: 130px;
+    width: 50%;
+}
+.banner__last__one h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+.banner__last__one span{
+    color: #C3002F;
+}
+
+.banner__last__one h2{
+    margin-top: 30px;
+    width: 60%;
+    font-size: 33px;
+    font-weight: 100;
+    line-height: 1.2;
+    font-family: roboto;
+}
+.banner__last__one p{
+    margin-top: 30px;
+    color: #5C5C5C;
+}
+.banner__last__one button{
+    width: 280px;
+    height: 52px;
+    background: #000;
+    color: white;
+    border: none;
+    text-align: left;
+    text-indent: 18px;
+    font-size: 14px;
+    transition: .2s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.banner__last__one button:hover{
+    background-color: #252525;
+}
+
+
+.banner__last__two{
+    margin-top: 130px;
+    width: 50%;
+}
+
+.banner__last__second{
+    margin-top: 100px;
+    display: flex;
+    gap: 28px;
+}
+.banner__sec__one h4{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.banner__sec__one h3{
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.banner__sec__one p{
+    color: #5C5C5C;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.banner__sec__one button{
+    margin-top: 40px;
+    width: 150px;
+    height: 54px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner__sec__one button:hover{
+    background: #000;
+    color: #fff;
+    border: none;
+}
+.lastest{
+    margin-top: 100px;
+    display: flex;
+    padding:   0 2%;
+}
+.lastest__one img{
+    width: 430px;
+    height: 250px;
+}
+.lastest__one h4{
+    margin-top: 30px;
+}
+.lastest__one h3{
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 200;
+    width: 80%;
+}
+.lastest__one button{
+    margin-top: 30px;
+    width: 150px;
+    height: 54px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+.lastest__one button:hover{
+    background: #000;
+    color: #fff;
+    border: none;
+}
+.katta{
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+    background: #EFEFEF;
+}
+.katta h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 209;
+}
+.katta button{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 300px;
+    height: 55px;
+    background: #C3002F;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+.katta button:hover{
+    background: #850422
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background: #000;
+   
+}
+.footer__flex{
+    color: #FFF;
+    display: flex;
+    gap: 100px;
+}
+.foot{
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 2.5;
+}
+.foot p{
+    color: #8A8A8A;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.foot p:hover{
+    border-bottom: 1px solid #8a8a8a;
+}
+.footer__icons i{
+    width: 35px;
+    height: 35px;
+    background: #8a8a8a;
+    color: #000;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.footer__icons{
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+.footer__icons i:hover{
+    background: #fff;
+}
